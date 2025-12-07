@@ -1,0 +1,28 @@
+---
+title: "SEMANA 10"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
+
+##  SEMANA 10 Calcular las medidas detendencia central (mediaaritmética,mediana,moda)
+
+```{r}
+ #1 CALCULAMOS MEDIA ARITMEICA DE LA VARIABLE EDAD
+#MEDIDAS DE TENDENCIA CENTRAL 
+#MEDIA ARITMETICA 
+mean(data$Edad)
+```
+
+```{r}
+#2 CALCULAMOS MEDIANA DE LA VARIABLE DE LA EDAD
+#MEDIANA
+median(data$Edad)
+
+```
+
+```{r}
+#3 CALCULAMOS MODA DE LA VARIABLE DE LA EDAD
+#MODA 
+mode_Edad<-names(sort(table(data$Edad),decreasing = TRUE))
+```
