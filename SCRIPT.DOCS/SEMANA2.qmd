@@ -1,1 +1,35 @@
+---
+title: "SEMANA 2"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
 
+## #SEMANA 2 Como crear un proyecto 
+
+## en Rstudio
+
+```{r}
+#1 NOS DIREGIMOS A NEW PROJECT
+```
+
+```{r}
+#2 SELECCIONAMOS NUEVO PROYECTO
+```
+
+```{r}
+#3 HACEMOS CLIK EN NEW PROJECT
+```
+
+```{r}
+#4 UBICAR EL PROYECTO Y COLOCAR UN NOMBRE
+```
+
+```{r}
+#5 LO GUARDAMOS EN UNA CARPETA
+```
+
+```{r}
+#6 SE VISUALIZA NUESTRO PROYECTO CREADO CON NUESTRO NOMBRE 
+
+```

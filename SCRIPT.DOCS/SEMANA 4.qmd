@@ -1,1 +1,24 @@
+---
+title: "SEMANA 4"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
 
+## #SEMANA 4 Como descargar un archivo enformato CSV del repositorio GIPBHUB
+
+```{r}
+#1 NOS DIREGIMOS A NUESTRA GUIA PRACTICA
+```
+
+```{r}
+#2 INGRESO AL REPOSITORIO GIPBHUB
+```
+
+```{r}
+#3 INGRESO A LA CARPETA DE DATA YUBICO EL ARCHIVO EN FORMATO CSV
+```
+
+```{r}
+#4 LO DESCARGAMOS 
+```

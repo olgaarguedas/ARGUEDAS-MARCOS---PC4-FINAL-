@@ -1,1 +1,23 @@
+---
+title: "SEMANA 8"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
 
+##  SEMANA8 Como instalar un paquete en Rstudio-Realiza tu grafico estadístico (Histograma)
+
+```{r}
+#1 Primero escribimos el nombre del paquete
+```
+
+```{r}
+#2 #INSTALAMOS UN PAQUETE 
+install.packages("MASS")
+library(MASS)
+```
+
+```{r}
+#3 HISTOGRAMA
+ggplot(data,aes(x=CDAI))+geom_histogram(bins= 30)+theme_minimal()
+```

@@ -1,1 +1,31 @@
+---
+title: "SEMANA 6"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
 
+##  SEMANA 6 Como Limpiar una data para utilizar una columna especifica
+
+```{r}
+#1 EXPORTAR LA DATA (subimos nuestro descarga y copiamos el ejecutable)
+```
+
+```{r}
+#2 CARGAR DATA NUEVA 
+data <- read_csv("C:/Users/hp/Downloads/s02_treat_artritis.csv")
+
+```
+
+```{r}
+#3 COMO OBSERVAMOS HAY VALORES PERDIDOS (el NA es lo que queremos limpiar) 
+```
+
+```{r}
+#4 LIMPIAR DATA DE UNA COLUMNAQUE CONTENGA FILAS CON NA
+data_limpia<-data[!is.na(data$CDAI), ]
+```
+
+```{r}
+#5 OBSERVAMOS LOS RESULTADOS QUE TODOS NA SE BORRARON
+```
