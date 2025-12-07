@@ -1,0 +1,46 @@
+---
+title: "SEMANA 12"
+author: "ARGUEDAS MARCOS OLGA"
+format: html
+editor: visual
+---
+
+## SEMANA12 Calcular las medidas de dispersión (varianza,Desviación estandar,Rango,Rango intercuartílico) y de posición (Cuartiles),script para visualizar las 6 primeras filas y para  poder visualizar un resumen de dichas medidas
+
+```{r}
+#MEDIDAS DE VARIANZA 
+
+#VARIANZA 
+var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#DESVIAZIÓN ESTANDAR 
+sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#Rango 
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTILICO 
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#MEDIDAS DE POSICIÓN 
+quantile(data$Edad,probs =c(0.25,0.50,0.75,0.90),na.rm = TRUE )
+summary(data$Edad)
+```
+
+```{r}
+#RESUMEN DE LAS 6 PRIMERAS FILAS 
+head(data)
+```
+
+```{r}
+#RESUMEN DE TODAS LAS VARIABLES 
+summary(data)
+```
